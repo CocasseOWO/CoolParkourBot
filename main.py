@@ -56,7 +56,7 @@ async def ibf(ctx):
         functions_list = [stop, sprint, walkback, sneakback, sneak]
 
         if precision == 5:
-            pr = 0.000001
+            pr = 0.00001
         elif precision == 6:
             pr = 0.000001
         elif precision == 7:
@@ -140,7 +140,7 @@ async def inputbruteforce(ctx):
         functions_list = [stop, sprint, walkback, sneakback, sneak]
 
         if precision == 5:
-            pr = 0.000001
+            pr = 0.00001
         elif precision == 6:
             pr = 0.000001
         elif precision == 7:
@@ -225,7 +225,7 @@ async def ibf45(ctx):
         functions_list = [stop, sprint45, walkback45, sneak45, sneakback45]
 
         if precision == 5:
-            pr = 0.000001
+            pr = 0.00001
         elif precision == 6:
             pr = 0.000001
         elif precision == 7:
@@ -310,7 +310,7 @@ async def inputbruteforce45(ctx):
         functions_list = [stop, sprint45, walkback45, sneak45, sneakback45]
 
         if precision == 5:
-            pr = 0.000001
+            pr = 0.00001
         elif precision == 6:
             pr = 0.000001
         elif precision == 7:
