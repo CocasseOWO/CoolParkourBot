@@ -150,9 +150,9 @@ async def ibf45(ctx, inputs, goal, precision):
 async def help(ctx):
     embed = discord.Embed(title=" ", color=0xff7b00)
     embed.set_author(name="Help", icon_url="https://s2.coinmarketcap.com/static/img/coins/200x200/14481.png")
-    embed.add_field(name="_inputbruteforce (_ibf)", value="Bruteforce all possible inputs for a straight momentum.",
+    embed.add_field(name="_ibf", value="Bruteforce all possible inputs for a straight momentum.",
                     inline=True)
-    embed.add_field(name="_inputbruteforce45 (_ibf45)",
+    embed.add_field(name="_ibf45",
                     value="Bruteforce all possible inputs for a facing 45 momentum.", inline=True)
     embed.set_footer(text="Made by Cocasse")
     await ctx.send(embed=embed)
